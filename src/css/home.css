@@ -1,0 +1,152 @@
+* {
+	font-family: 'Ubuntu', 'Helvetica', 'Roboto', sans-serif;
+	box-sizing: border-box;
+	padding: 0px;
+}
+
+body {
+	background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+	background-blend-mode: screen;
+}
+
+header {
+	opacity: 0.95;
+	/*background: linear-gradient(135deg, #fdfcfb 0%, #fff 100%);*/
+	background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+	background-blend-mode: screen;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-left: 25px;
+	padding-bottom: 40px;
+	width: 100%;
+	border-radius: 10px;
+
+}
+
+.title {
+	margin: 0px;
+	float: left;
+}
+
+.nav-wrapper {
+	padding-top: 5px;
+	position: relative;
+	clear:both;
+}
+
+.nav-wrapper .nav-buttons{
+	list-style-type: none;
+	float: center;
+	text-align: center;
+}
+
+.nav-wrapper .nav-buttons li {
+	display: inline-block;
+	font-size: 130%;
+	margin: 10px;
+}
+
+.nav-wrapper .nav-buttons li a:hover {
+	text-decoration: underline;
+	font-size: 103%;
+	color: red;
+}
+
+.nav-wrapper .nav-buttons li a:active {
+	text-decoration: underline;
+	font-size: 103%;
+	color: purple;
+}
+
+.all-site {
+	border-radius: 10px;
+	width: 60%;
+	margin: 225px auto;
+	margin-bottom: 0px;
+	padding: 80px 130px;
+	background-image: linear-gradient(120deg, #fdfbfb 10%, #fff 100%);
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-family: 103%;
+	color: red;
+}
+
+p {
+	font-family: 'Helvetica';
+}
+
+h1 {
+	font-family: 'Roboto Slab';
+}
+
+h2 {
+	font-family: 'Ubuntu';
+}
+
+footer {
+	margin-top: 75px;
+	text-align: right;
+	border-radius: 5px;
+	padding: 10px;
+	padding-bottom: 5px;
+}
+
+.site-footer a:hover {
+	color: blue;
+}
+
+.site-footer a:active {
+	color: purple;
+}
+
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+	
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #354B61;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 0px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+	text-align: center;
+}
+
+.divTableHeading {
+	background-color: #354B61;
+	display: table-header-group;
+	font-weight: bold;
+}
+
+.divTableFoot {
+	background-color: #354B61;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.divTableC {
+	background-color: #354B61;
+	border: 0px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+	color: white;
+	text-align: center;
+}
